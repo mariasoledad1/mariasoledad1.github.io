@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Mobile theme visual tests</title>
-	<link rel="stylesheet" href="themes/default/style.min.css">
-	<link rel="stylesheet" href="themes/default-dark/style.min.css">
+	<link rel="stylesheet" href="style.min.css">
+
 	<style>.tree { padding:10px; margin:20px; float:left; }</style>
 </head>
 <body style="background:white;">
@@ -60,9 +60,7 @@
 	
 	$('#tree2').jstree({ plugins : ["search"], "types" : { "file" : { "icon" : "jstree-file" } } });
 	
-	$('#full').jstree({ plugins : ["checkbox","sort","types","wholerow"], "types" : { "file" : { "icon" : "jstree-file" } } });
-	$('#dark').jstree({ plugins : ["checkbox","sort","types","wholerow"], "core" : { "themes" : { "name" : "default-dark" } }, "types" : { "file" : { "icon" : "jstree-file" } } });
-	
+
 	
 		// interaction and events
 	$('#evts_button').on("click", function () {
